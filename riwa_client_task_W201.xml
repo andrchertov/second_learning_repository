@@ -1,0 +1,88 @@
+﻿<riwa_ClientTask>
+   <Company Name="Tessonics" System="riwa client" Web="www.tessonics.com" TimeStamp="2020-01-02 08:56:06:417" />
+
+   <Robots>
+      <Robot RobotID="{AC174AFD-250C-42EA-8307-799F5877F9A4}" RobotName="robot_narmcoW201">
+         <!-- AScanType: CoilStream, SignalStream, Static -->
+
+         <SettingParam DIO="ABCC40" DHCP="Off" IP="192.168.1.91" SubNet="255.255.255.0" GateWay="0.0.0.0" AScanType="CoilStream">
+            <Masks Weld="FF" Trigger="FF" CapChange="100" CapDress="200" CapTemp="FF0000" FirstWeldCode="9" EndPartCode="30" BeforeCON="50" AfterCOFF="160" CapQuality="F000000" />
+            <Adjust PassSize="1000" Gain="5.03" RegDelay="12.5" />
+            <Feedback Pass="3" Alive="1" TraceFile="0"/>
+            <Other />
+            <BoardStaticParam />
+         </SettingParam> 
+
+         <Parts>
+            <Part PartID="{00000000-0000-0000-0001-000000000000}" PartName="Part-0001" PartCode="1">
+               <Weld WeldID="{00000000-0000-0000-0001-000000000000}" WeldName="Weld-9" WeldCode="00009" AParamID="009" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000001}" WeldName="Weld-14" WeldCode="00014" AParamID="014" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000002}" WeldName="Weld-37" WeldCode="00037" AParamID="037" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000003}" WeldName="Weld-15" WeldCode="00015" AParamID="016" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000004}" WeldName="Weld-16" WeldCode="00016" AParamID="016" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000005}" WeldName="Weld-17" WeldCode="00017" AParamID="016" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000006}" WeldName="Weld-22" WeldCode="00022" AParamID="022" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000007}" WeldName="Weld-23" WeldCode="00023" AParamID="023" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000000}" WeldName="Weld-24" WeldCode="00024" AParamID="024" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000001}" WeldName="Weld-25" WeldCode="00025" AParamID="025" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000002}" WeldName="Weld-26" WeldCode="00026" AParamID="024" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000004}" WeldName="Weld-28" WeldCode="00028" AParamID="028" />
+               <Weld WeldID="{00000000-0000-0000-0001-000000000006}" WeldName="Weld-30" WeldCode="00030" AParamID="030" />
+            </Part>
+         </Parts>
+
+         <WeldParams>
+            <WeldParam AParamID="009"
+                BScanDelay="120.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="014"
+                BScanDelay="0.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="016"
+                BScanDelay="40.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="037"
+                BScanDelay="200.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="022"
+                BScanDelay="100.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="023"
+                BScanDelay="50.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="024"
+                BScanDelay="0.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="025"
+                BScanDelay="0.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="028"
+                BScanDelay="60.00" AinB="400" PassSize="256" Interval="1300.00"
+                Plate1="0.85" Plate2="1.40" MinSize="3.20" BeforeCON="50" AfterCOFF="100"
+                TOFSlope="0.02590" TOFIntercept="-22.80" TOFSlope1="35.00000" TOFIntercept1="28.00" />
+
+            <WeldParam AParamID="030"
+                BScanDelay="200.00" AinB="400" PassSize="324" Interval="1300.00"
+                Plate1="1.42" Plate2="0.75" Plate3="1.48" MinSize="3.20" BeforeCON="50" AfterCOFF="160"
+                TOFSlope="0.01780" TOFIntercept="-26.00" TOFSlope1="32.00000" TOFIntercept1="30.00" />
+
+         </WeldParams>
+      </Robot>
+   </Robots>
+</riwa_ClientTask>
