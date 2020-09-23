@@ -1,4 +1,2 @@
 this is file 1
-from g5
-from g5 line 3
-from g5 line 4
+
