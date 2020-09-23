@@ -1,1 +1,4 @@
 this is file 1
+edit in git 4 line 2
+etit in git 4 line 3
+etit in git 4 line 4
